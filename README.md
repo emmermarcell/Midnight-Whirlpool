@@ -2,7 +2,7 @@
 A beginner pygame project I made in my freetime
 
 
-Controlls:
+Controls:
 
 Movement - WASD
 
