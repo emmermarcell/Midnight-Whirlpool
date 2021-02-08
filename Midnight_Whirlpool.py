@@ -1596,6 +1596,7 @@ class UserInterface():
         self.window = pygame.display.set_mode((int(windowSize.x),int(windowSize.y)))
         pygame.display.set_caption("Midnight Whirlpool")
         pygame.display.set_icon(pygame.image.load("icon.png"))
+        pygame.mouse.set_visible(False)
         
         # Set up music
         pygame.mixer.music.load("SFX/title_song.mp3")
